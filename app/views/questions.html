@@ -1,0 +1,196 @@
+<div class="container my-custom-container"> 
+  <div class="questions-head">
+    <div class="row">
+      <div class="col-md-3 small-gutter"><span class="title">QUESTIONS</span></div>
+      <div class="col-md-6 center small-gutter">
+        <form class="form-inline" ng-controller="QuestionsCtrl">    
+          <label ng-repeat="list in questionLists">
+          <input type="radio"
+              ng-model="name"
+              ng-value="list"
+              id="{{list}}"
+              name="name" />
+              {{list.name}}
+          </label>
+        </form>
+      </div>
+      <div class="col-md-3 center small-gutter">
+        <span class="ita-font">Sort by:</span> 
+        <a>recent</a> 
+        <span class="ita-font">or</span> 
+        <a>hot</a>
+      </div>
+    </div>
+
+  <!--search-->
+  <form class="form-horizontal">
+  <div class="row form-group">
+      <div class="col-md-9 small-gutter">
+        <input type="text" class="form-control" placeholder="Search questions">
+      </div>
+      <div class="col-md-3 small-gutter">
+        <button type="submit" class="btn btn-default form-control">SEARCH</button>
+      </div>
+  </div>
+  </form>
+
+  </div>
+</div>
+
+<!--question list-->
+<div class="questions-main">
+  <div class="questions-wrapper">  
+    <div class="container my-custom-container">
+
+      <!-- one single question-->
+      <div class="question-overview"> 
+        <div class="row">
+          <div class="col-md-9">
+            <div class="question-person"> 
+              <img src="images/little_animal.png" class="img-circle" align="left">
+              <p>  
+                <a class="person-name">Eva</a> IS ASKING:
+                <br>
+                <a class="ita-font question-title">Will inlulin make my patient gain weight?</a>
+              </p>
+            </div>
+            <div class="question-info">
+              <div class="row">
+                <div class="col-md-2 center">
+                  <div class="asked center">
+                    <hr>
+                    ASKED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter center">
+                 <div class="more-activities center ita-font"> 
+                  <p>3</p>
+                  More activities
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/little_animal.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/little_animal.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/little_animal.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities activitity-answer center"> 
+                    <p class="center"><img src="images/little_animal.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    ANSWERED
+                  </div>
+                </div>                                             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 small-gutter">
+            <ul class="relvance">
+              <li>1 <span class="ita-font">related discussion</span></li>
+              <li>6 <span class="ita-font">peers involved</span></li>
+              <li>3 <span class="ita-font">conversions</span></li>
+            </ul>
+          </div> 
+        </div>  
+
+      </div>
+      <!--end of one single question-->
+
+      <!-- one single question-->
+      <div class="question-overview"> 
+        <div class="row">
+          <div class="col-md-9">
+            <div class="question-person"> 
+              <img src="images/crap.png" class="img-circle" align="left">
+              <p>  
+                <a class="person-name">Andrew</a> IS ASKING:
+                <br>
+                <a class="ita-font question-content">Vagent diet in diabetes treatment?</a>
+              </p>
+            </div>
+            <div class="question-info">
+              <div class="row">
+                <div class="col-md-2 center">
+                  <div class="asked center">
+                    <hr>
+                    ASKED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter center">
+                 <div class="more-activities center ita-font"> 
+                  <p>1</p>
+                  More activities
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/crap.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/crap.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities center"> 
+                    <p class="center"><img src="images/crap.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    COMMENTED
+                  </div>
+                </div>
+                <div class="col-md-2 small-gutter">
+                  <div class="activities activitity-answer center"> 
+                    <p class="center"><img src="images/crap.png" class="img-circle" align="center" /></p>
+                    <br>
+                    <hr />
+                    ANSWERED
+                  </div>
+                </div>                                             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 small-gutter">
+            <ul class="relvance">
+              <li>1 <span class="ita-font">related discussion</span></li>
+              <li>6 <span class="ita-font">peers involved</span></li>
+              <li>3 <span class="ita-font">conversions</span></li>
+            </ul>
+          </div> 
+        </div>  
+
+      </div>
+      <!--end of one single question-->
+
+    </div>
+  </div>
+</div>
+  

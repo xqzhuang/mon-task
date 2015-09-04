@@ -7,14 +7,8 @@
 
 body {
   padding: 0;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+  font-family: Rotice;
+  font-size: 12px;
 }
 
 /* Custom page header */
@@ -22,62 +16,67 @@ body {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
+@media (min-width: 768px) {
+.my-custom-container{
+    max-width:700px;
+}}
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
+@media (min-width: 992px) {
+.my-custom-container{
+    max-width:850px;
+}}
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
+@media (min-width: 1200px) {
+.my-custom-container{
+    max-width:1000px;
+}}
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+
+
+/* Common style*/
+.center{
+  text-align: center;
+}
+
+.form-inline {
+  font-size: 12px;
+  font-weight: normal;
+}
+.form-inline > * {
+    margin-left:15px !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ita-font {
+  font-style: italic;
+}
+
+.gray-font{
+  color: gray;
+  text-transform: uppercase;
+}
+
+.no-gutter{
+  padding-right:0 !important;
+  padding-left: 0 !important;
+}
+
+.small-gutter{
+  padding-right: 5px !important;
+  padding-left: 5px !important;  
+}
+
+
+.main{
+  margin: 0px auto;
+  padding: 0px;
 }

@@ -1,0 +1,126 @@
+
+.questions-main{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #FCC99D;
+}
+
+.questions-main .my-custom-container{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Question list page*/
+.questions-wrapper{
+  margin: 0px auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #FBF5FC;
+}
+
+.question-overview {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  border: 1px solid #E3E2E1;
+  box-shadow: 1px 1px 1px #888888;
+  padding-bottom: 40px;
+}
+
+.question-overview img{
+  width: 50px;
+  height: 50px;
+}
+
+.question-overview .question-person{
+  background-color: #C1E0D7;
+  height: 90px;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.question-person p{
+  padding-left: 100px;
+}
+
+.question-title, .person-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.question-info .row hr{
+  border-color: gray;
+}
+
+.question-info p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.question-info .asked{
+  background-color: #C1E0D7;
+  padding-top: 145px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+.question-info .activities{
+  background-color: #FBF5FC;
+  font-size: 10px;
+  color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.question-info .more-activities{
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.question-info .activitity-answer{
+  color: black;
+
+}
+
+.question-info .activitity-answer hr{
+  border-color: black;
+}
+/*
+
+.question-info ul, .question-info ul li{
+  margin: 0px;
+  padding: 0px;
+}
+
+.question-info ul li{
+  list-style: none;
+  float: left;
+  width: 70px;
+  margin-right: 9px;
+}
+
+.question-info ul li:last-child{
+  margin: 0px;
+}
+
+.question-info ul li:first-child{
+  padding-top: 100px;
+  background-color: #C1E0D7;
+}
+*/
+
+/*relvance*/
+.relvance {
+  margin-top: 120px;
+}
+
+.relvance li{
+  list-style: none;
+  margin-top: 30px;
+}
