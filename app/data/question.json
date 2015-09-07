@@ -1,0 +1,45 @@
+{
+    "questions":[{
+            "id": 1,
+            "title":"Will insulin make my patient gain weight?",
+            "content":"Content-Will insulin make my patient gain weight?",
+            "doctor_id": 2,
+            "timestamp": "2012-07-15T01:52:33Z"
+        },
+        {
+            "id": 2,
+            "title":"Vegan diet in diabetes treatment?",
+            "content":"Content-Vegan diet in diabetes treatment?",
+            "doctor_id": 3,
+            "timestamp": "2015-07-18T01:52:33Z"
+        },
+        {
+            "id": 3,
+            "title":"Vegan diet to stop diabetes progress",
+            "content":"Content-Vegan diet to stop diabetes progress",
+            "doctor_id": 1,
+            "timestamp": "2015-07-20T01:52:33Z"
+        }
+        {
+            "id": 4,
+            "title":"Will insulin make my patient gain weight?",
+            "content":"Content-Will insulin make my patient gain weight?",
+            "doctor_id": 3,
+            "timestamp": "2014-07-15T01:52:33Z"
+        },
+        {
+            "id": 5,
+            "title":"Vegan diet in diabetes treatment?",
+            "content":"Content-Vegan diet in diabetes treatment?",
+            "doctor_id": 3,
+            "timestamp": "2015-06-18T01:52:33Z"
+        },
+        {
+            "id": 6,
+            "title":"Vegan diet to stop diabetes progress",
+            "content":"Content-Vegan diet to stop diabetes progress",
+            "doctor_id": 1,
+            "timestamp": "2015-09-02T01:52:33Z"
+        }
+    ]
+}

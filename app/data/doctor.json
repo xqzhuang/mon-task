@@ -1,0 +1,27 @@
+{
+    "doctors":[{
+            "id": 1,
+            "first_name":"Eva",
+            "last_name":"Batts",
+            "gender":"Female",
+            "avatar":"carp.png",
+            "joined_time": "2014-03-15T01:52:33Z"
+        },
+        {
+            "id": 2,
+            "first_name":"Andrew",
+            "last_name":"Smith",
+            "gender":"Male",
+            "avatar":"blueface.png",
+            "joined_time": "2012-07-08T01:52:33Z"
+        },
+        {
+            "id": 3,
+            "first_name":"Joseph",
+            "last_name":"Bloom",
+            "gender":"Male",
+            "avatar": "beatles.png",
+            "joined_time": "2015-01-21T01:52:33Z"
+        }
+    ]
+}

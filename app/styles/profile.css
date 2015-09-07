@@ -21,7 +21,7 @@
 	margin-bottom: 10px;
 }
 
-/*rotate*/
+/*rotation*/
 .rotate-1, .rotate-2, .rotate-3, .rotate-4{
 	background-color: #C1E0D7;
 	width: 100px;
@@ -107,14 +107,17 @@
 
 /*hottest discussion*/
 .hot-discussion{
+	width: 100%;
 	margin-top: 30px;
 	background-color: #EBF0F2;
 	padding-bottom: 30px;
 }
 
 .hot-discussion .avatar{
+	width: 40px;
 	position: relative;
-	right: 5%;
+	left: 50%;
+	margin-left: -20px;
 	top: -15px;	
 }
 

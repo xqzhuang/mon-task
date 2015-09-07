@@ -1,0 +1,45 @@
+{
+    "answers":[{
+            "id": 1,
+            "content":"Answer of question 1",
+            "question_id": 1,
+            "doctor_id":2,
+            "timestamp": "2015-08-15T01:52:33Z"
+        },
+        {
+            "id": 2,
+            "content":"Answer of question 3",
+            "question_id": 3,
+            "doctor_id":3,
+            "timestamp": "2015-06-13T01:52:33Z"
+        },
+        {
+            "id": 3,
+            "content":"Answer of question 2",
+            "question_id": 2,
+            "doctor_id":1,
+            "timestamp": "2015-02-20T01:52:33Z"
+        },
+        {
+            "id": 4,
+            "content":"Answer of question 1",
+            "question_id": 1,
+            "doctor_id":1,
+            "timestamp": "2015-02-20T01:52:33Z"
+        },
+        {
+            "id": 5,
+            "content":"Answer of question 3",
+            "question_id": 3,
+            "doctor_id":1,
+            "timestamp": "2015-02-20T01:52:33Z"
+        },
+        {
+            "id": 6,
+            "content":"Answer of question 3",
+            "question_id": 3,
+            "doctor_id":2,
+            "timestamp": "2015-02-20T01:52:33Z"
+        }            
+    ]
+}
